@@ -42,7 +42,7 @@ Speaker.prototype.setPlayer=function(){
 		{
 			src:'../js/flowplayer/flowplayer-3.2.7.swf',
 			onFail:function(){
-				console.log('Speaker: The flash player could not loaded!');	
+				console.log('Speaker: The flash player could not load!');	
 			}
 		},
 		{
