@@ -22,9 +22,9 @@ $(document).ready(function(){
 
 		}).focusin(function(){
 			
-			var $jp=$(this).closest('li').find('.speakerJPlayer');
+			var $p=$(this).closest('li').find('.speakerPlayer');
 
-			$jp.jPlayer('play');
+			$f($p).play();
 
 		});
 		
